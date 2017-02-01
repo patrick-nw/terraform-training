@@ -56,7 +56,7 @@ resource "aws_instance" "web" {
     Name = "web ${count.index+1}/${var.num_webs}"
   }
 }
-
+foo
 #module "example" {
 #  source = "./example-module"
 #  command = "echo 'Goodbye World'"
